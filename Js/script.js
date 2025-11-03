@@ -1,4 +1,6 @@
-const audio = new Audio('songs/Aasecond-hand-149907.mp3');
+console.log("updated js");
+
+const audio = new Audio('songs/all/Aasecond-hand-149907.mp3');
     const playBtn = document.getElementById('play');
     const pauseBtn = document.getElementById('pause');
     const progress = document.getElementById('progress');
@@ -52,7 +54,7 @@ const audio = new Audio('songs/Aasecond-hand-149907.mp3');
       playBtn.style.display = 'inline-block';
       progress.style.width = '0%';
     });// Create an Audio object
-    const song = new Audio('songs/Aasecond-hand-149907.mp3');
+    const song = new Audio('songs/all/Aasecond-hand-149907.mp3');
 
     // Play the song
     document.getElementById('playBtn').addEventListener('click', () => {
